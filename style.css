@@ -1,0 +1,77 @@
+body {
+	background-color: #bdd4e7;
+	background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+
+
+
+}
+
+
+.container1 {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 2fr 1fr 1fr;
+}
+
+.container2 {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 2fr 1fr;
+}
+
+.container3 {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr 2fr;
+}
+
+.container4 {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.zone {
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	font-size: 10em;
+	border-radius: 20px;
+	border: 1px solid #bbb;
+	transition: all 0.3s linear;
+}
+
+.zone:hover {
+	box-shadow: black 0px 5px 15px;
+}
+
+.green {
+	background-color:#20bf55;
+	background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+ }
+
+ .red {
+ 	background-color: #3f0d12;
+background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+}
+
+.blue {
+	background-color: #eec0c6;
+	background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+}
+
+.yellow {
+	background-color: #ef5734;
+	background-image: linear-gradient(315deg, #ef5734 0%, #ffcc2f 74%);
+}
+
+.purple {
+	background-color: #861657;
+	background-image: linear-gradient(326deg, #861657 0%, #ffa69e 74%);
+}
+
+.brown {
+	background-color: #772f1a;
+	background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+
+}
